@@ -1,3 +1,5 @@
+##NOTE: This project was created with Claude AI.
+
 # T-Embed CC1101 Music Player
 
 Firmware for the **LilyGO T-Embed CC1101**: SD / FTP / HTTP music player and web-radio client with a small wheel-driven UI, wheel LED animations (always **1 % brightness**) and deep sleep.
