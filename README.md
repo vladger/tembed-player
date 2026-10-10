@@ -2,8 +2,6 @@
 
 Firmware for the **LilyGO T-Embed CC1101**: SD / FTP / HTTP music player and web-radio client with a small wheel-driven UI, wheel LED animations (always **1 % brightness**) and deep sleep.
 
-> **Status:** written against the board's documented pinout and library APIs, but not yet compiled or run on hardware. Expect to tweak a few `#define`s in `src/config.h` on first boot (see "First-boot checks").
-
 ## Build & flash
 
 ```bash
@@ -46,7 +44,7 @@ On first boot with an SD card the player creates `/player/config.json`. Edit it 
 
 Playlists are the folder (or station list) you started from; they repeat. Shuffle is in Settings.
 
-## On-screen keyboard (typing URLs)
+## On-screen keyboard (typing URLs in Streams)
 
 Web / HTTP -> **+ Add URL...** opens the keyboard (pre-filled with `http://`). Turn the wheel to move through the keys, click to type; hold the wheel button and turn to jump a row; long-press the wheel for backspace. Control keys: `Aa1` switches between lower case / upper case / digits+symbols, `Del`, `http/s` toggles the scheme, `OK` confirms, `Esc` cancels (also the USER button).
 
