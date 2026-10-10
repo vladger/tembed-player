@@ -6,6 +6,8 @@ Firmware for the **LilyGO T-Embed CC1101**: SD / FTP / HTTP music player and web
 
 ## Build & flash
 
+Download the .bin file from Releases, or build it yourself:
+
 ```bash
 pip install platformio
 pio run -t upload
