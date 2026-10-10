@@ -1,4 +1,4 @@
-##NOTE: This project was created with Claude AI.
+#NOTE: This project was created with Claude AI.
 
 # T-Embed CC1101 Music Player
 
